@@ -17,13 +17,12 @@ El sistema permite gestionar de forma segura el ciclo de vida de un pedido, desd
 ### 📋 Responsabilidades del Módulo (Grupo 4)
 ### Evidencia del Sistema
 
-Aquí puedes ver el panel administrativo funcionando:
+Aquí puedes ver el panel administrativo funcionando Y el proceso de checkout:
+:
 
 ![Panel Administrativo](./assets/fsdfsdf.JPG)
 
-Y este es el proceso de checkout:
 
-![Checkout](./assets/checkout-pedido.png)
 
 **Módulo D (Ventas y Pedidos):**
 * Checkout funcional con validación de stock en tiempo real.
