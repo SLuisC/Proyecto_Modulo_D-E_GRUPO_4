@@ -15,6 +15,15 @@ Este repositorio contiene el **núcleo transaccional y administrativo** del MVP 
 El sistema permite gestionar de forma segura el ciclo de vida de un pedido, desde la selección en el carrito hasta la validación de pagos, proporcionando a los administradores las herramientas necesarias para la gestión operativa del negocio.
 
 ### 📋 Responsabilidades del Módulo (Grupo 4)
+### Evidencia del Sistema
+
+Aquí puedes ver el panel administrativo funcionando:
+
+![Panel Administrativo](./assets/dashboard-admin.png)
+
+Y este es el proceso de checkout:
+
+![Checkout](./assets/checkout-pedido.png)
 
 **Módulo D (Ventas y Pedidos):**
 * Checkout funcional con validación de stock en tiempo real.
