@@ -20,7 +20,7 @@ El sistema permite gestionar de forma segura el ciclo de vida de un pedido, desd
 Aquí puedes ver el panel administrativo funcionando Y el proceso de checkout:
 :
 
-![Panel Administrativo](./assets/fsdfsdf.JPG)
+![Panel Administrativo](./assets/gfhfghfghn.JPG)
 
 
 
