@@ -1,14 +1,12 @@
----
-
 # Proyecto Web - Módulos D y E (Grupo 4)
-Integrantes:
 
--[CABEZAS CEVALLOS LUIS ANTONIO]
--[VICTORES ANCHUNDIA MABEL ALEJANDRA]
--[BARCOS MONSERRATE DAYANA LILIBETH]
--[BERMUDEZ MEDINA KRYSTEL RAQUEL]
--[JARAMILLO VIVANCO JEAN PAUL]
--[GONZALEZ FRANCO CARLOS ANDRES]
+## Integrantes
+* CABEZAS CEVALLOS LUIS ANTONIO
+* VICTORES ANCHUNDIA MABEL ALEJANDRA
+* BARCOS MONSERRATE DAYANA LILIBETH
+* BERMUDEZ MEDINA KRYSTEL RAQUEL
+* JARAMILLO VIVANCO JEAN PAUL
+* GONZALEZ FRANCO CARLOS ANDRES
 
 Este repositorio contiene el **núcleo transaccional y administrativo** del MVP (Producto Mínimo Viable) para la comercialización de productos. Como **Grupo 4**, nuestra responsabilidad principal es garantizar la integridad del flujo de ventas y la operatividad del panel administrativo.
 
@@ -18,18 +16,15 @@ El sistema permite gestionar de forma segura el ciclo de vida de un pedido, desd
 
 ### 📋 Responsabilidades del Módulo (Grupo 4)
 
-* **Módulo D (Ventas y Pedidos):**
+**Módulo D (Ventas y Pedidos):**
 * Checkout funcional con validación de stock en tiempo real.
 * Registro de pedidos con captura de comprobante de transferencia bancaria.
 * Descuento automático de inventario al completar la venta.
 
-
-* **Módulo E (Administración / Backoffice):**
+**Módulo E (Administración / Backoffice):**
 * Visualización y seguimiento de pedidos en tiempo real.
 * Lógica de validación de pagos y gestión de estados del pedido.
 * Panel de control administrativo integrado.
-
-
 
 ## 🛠 Tecnologías Utilizadas
 
@@ -41,67 +36,11 @@ El sistema permite gestionar de forma segura el ciclo de vida de un pedido, desd
 ## ⚙️ Guía de Instalación
 
 ### Requisitos previos
-
 * Tener instalado [Docker](https://www.docker.com/) y [Node.js](https://nodejs.org/).
 
 ### Pasos para iniciar el entorno
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/TU_USUARIO/Proyecto_Modulo_D-E_GRUPO_4.git
+git clone [https://github.com/SLuisC/Proyecto_Modulo_D-E_GRUPO_4.git](https://github.com/SLuisC/Proyecto_Modulo_D-E_GRUPO_4.git)
 cd Proyecto_Modulo_D-E_GRUPO_4
-
-```
-
-
-2. **Configuración de entorno:**
-Crea un archivo `.env` en la raíz del proyecto usando `.env.example` como referencia:
-```bash
-cp .env.example .env
-
-```
-
-
-*Edita el archivo `.env` con tus credenciales de base de datos.*
-3. **Levantar la base de datos:**
-```bash
-docker-compose up -d
-
-```
-
-
-4. **Instalar dependencias y ejecutar:**
-```bash
-npm install
-npm run dev
-
-```
-
-
-
-## 🛡 Seguridad
-
-**Importante:** Nunca subas el archivo `.env` con credenciales reales al repositorio. Este archivo está incluido en el `.gitignore` por seguridad. Asegúrate de configurar tus propias variables locales.
-
----
-
-*Desarrollado por el **Grupo 4** - Proyecto de Aplicaciones de Internet 10.5*
-
----
-
-### ¿Cómo subir este archivo?
-
-1. En tu terminal (dentro de la carpeta del proyecto):
-```bash
-# Crea el archivo (si no existe)
-nano README.md
-
-# Pega el contenido, presiona Ctrl+O para guardar, Enter, y Ctrl+X para salir
-
-# Súbelo a GitHub
-git add README.md
-git commit -m "Añadir archivo README de presentación"
-git push origin main
-
-```
-
