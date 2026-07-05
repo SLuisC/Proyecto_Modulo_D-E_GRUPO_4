@@ -1,6 +1,13 @@
 ---
 
 # Proyecto Web - Módulos D y E (Grupo 4)
+Integrantes:
+-[CABEZAS CEVALLOS LUIS ANTONIO]
+-[VICTORES ANCHUNDIA MABEL ALEJANDRA]
+-[BARCOS MONSERRATE DAYANA LILIBETH]
+-[BERMUDEZ MEDINA KRYSTEL RAQUEL]
+-[JARAMILLO VIVANCO JEAN PAUL]
+-[GONZALEZ FRANCO CARLOS ANDRES]
 
 Este repositorio contiene el **núcleo transaccional y administrativo** del MVP (Producto Mínimo Viable) para la comercialización de productos. Como **Grupo 4**, nuestra responsabilidad principal es garantizar la integridad del flujo de ventas y la operatividad del panel administrativo.
 
